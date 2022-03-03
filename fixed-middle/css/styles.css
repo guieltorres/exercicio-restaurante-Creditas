@@ -9,6 +9,7 @@ main {
 /* Containers */
 .container-width {
   width: 940px;
+  margin: 0 auto;
 }
 
 /* Headings */

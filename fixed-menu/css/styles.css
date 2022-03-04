@@ -1,5 +1,6 @@
 body {
   font-family: 'Nunito', sans-serif;
+  width: 100%;
 }
 
 main {
@@ -8,7 +9,6 @@ main {
 
 /* Containers */
 .container-width {
-  width: 940px;
   margin: 0 auto;
 }
 
@@ -32,7 +32,7 @@ main {
 
 /* Title */
 .logo {
-  height: 200px;
+  width: 15%;
   margin: 20px 60px;
   vertical-align: middle;
 }
@@ -41,7 +41,7 @@ main {
   display: inline-block;
   font-family: 'Paytone One', sans-serif;
   text-decoration: none;
-  font-size: 3.5rem;
+  font-size: 5vw;
   vertical-align: middle;
   color: #FFEBA1;
   width: 10%;
@@ -49,13 +49,14 @@ main {
 
 /* Nav Bar */
 .menu {
-  height: calc(100% - 240px);
+  height: 100%;
   width: 200px;
-  position: absolute;
   z-index: 1;
+  position: absolute;
   background: #95DAC1;
   overflow-y: hidden;
   padding: 50px 25px;
+  float: left;
 }
 
 .menu__item {
@@ -93,13 +94,13 @@ main {
 
 .features__item {
   display: inline-block;
-  width: 200px;
+  width: 25%;
   vertical-align: top;
   padding: 7px;
 }
 
 .features__img {
-  width: 200px;
+  width: 100%;
   border: 2px solid #6F69AC;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -112,12 +113,14 @@ main {
 
 /* About */
 .about {
+  box-sizing: border-box;
+  width: 40%;
   padding: 20px 15px 0;
 }
 
 .about__map {
-  height: 300px;
-  width: 350px;
+  height: 400px;
+  width: 100%;
 }
 
 /* Contact Page */
@@ -166,14 +169,14 @@ form label {
 }
 
 .c-products__item {
+  width: 25%;
   display: inline-block;
-  width: 200px;
   vertical-align: top;
   padding: 7px;
 }
 
 .c-products__img {
-  width: 150px;
+  width: 100%;
   border: 2px solid #6F69AC;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -197,14 +200,14 @@ form label {
 }
 
 .d-products__item {
+  width: 25%;
   display: inline-block;
-  width: 200px;
   vertical-align: top;
   padding: 7px;
 }
 
 .d-products__img {
-  width: 150px;
+  width: 100%;
   border: 2px solid #6F69AC;
   border-radius: 10px;
   margin-bottom: 10px;

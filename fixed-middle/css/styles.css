@@ -1,9 +1,19 @@
+/* Colors */
+:root {
+  --first-color: #FF6EC9;
+  --second-color: #95DAC1;
+  --third-color: #6F69AC;
+  --fourth-color: #FFEBA1;
+  --bg-color: #FFEFEF;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
 }
 
 main {
   margin-left: 250px;
+  background: var(--bg-color);
 }
 
 /* Containers */
@@ -22,12 +32,12 @@ main {
 .section-heading {
   font-size: 1.7rem;
   line-height: 1.5;
-  color: #6F69AC;
+  color: var(--third-color);
 }
 
 /* Sections */
 .colored-section {
-  background: #FF6EC9;
+  background: var(--first-color);
 }
 
 /* Title */
@@ -43,7 +53,7 @@ main {
   text-decoration: none;
   font-size: 3.5rem;
   vertical-align: middle;
-  color: #FFEBA1;
+  color: var(--fourth-color);
   width: 10%;
 }
 
@@ -53,7 +63,7 @@ main {
   width: 200px;
   position: absolute;
   z-index: 1;
-  background: #95DAC1;
+  background: var(--second-color);
   overflow-y: hidden;
   padding: 50px 25px;
 }
@@ -66,12 +76,12 @@ main {
   padding: 12px 0 0;
   text-decoration: none;
   font-size: 1.5rem;
-  color: #6F69AC;
+  color: var(--third-color);
   display: block;
 }
 
 .menu__link:hover {
-  color: #FF6EC9;
+  color: var(--first-color);
 }
 
 /* Features */
@@ -82,7 +92,7 @@ main {
 .banner__img {
   text-align: center;
   width: 100%;
-  border: 2px solid #6F69AC;
+  border: 2px solid var(--third-color);
   border-radius: 10px;
 }
 
@@ -100,14 +110,14 @@ main {
 
 .features__img {
   width: 200px;
-  border: 2px solid #6F69AC;
+  border: 2px solid var(--third-color);
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 .features__title {
   font-size: 1.2rem;
-  color: #6F69AC;
+  color: var(--third-color);
 }
 
 /* About */
@@ -144,7 +154,7 @@ form label {
 .contact__btn {
   width: 50%;
   padding: 15px 0;
-  background: #FF6EC9;
+  background: var(--first-color);
   color: #fff;
   font-size: 1.2rem;
   font-weight: bold;
@@ -155,8 +165,8 @@ form label {
 }
 
 .contact__btn:hover {
-  background: #FFEBA1;
-  color: #FF6EC9;
+  background: var(--fourth-color);
+  color: var(--first-color);
 }
 
 /* Cat Page */
@@ -174,20 +184,20 @@ form label {
 
 .c-products__img {
   width: 150px;
-  border: 2px solid #6F69AC;
+  border: 2px solid var(--third-color);
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 .c-products__title {
   font-size: 1.2rem;
-  color: #6F69AC;
+  color: var(--third-color);
 }
 
 .c-products__price {
   padding: .5rem;
   font-size: 1.2rem;
-  color: #6F69AC;
+  color: var(--third-color);
 }
 
 /* Dog Page */
@@ -205,18 +215,18 @@ form label {
 
 .d-products__img {
   width: 150px;
-  border: 2px solid #6F69AC;
+  border: 2px solid var(--third-color);
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 .d-products__title {
   font-size: 1.2rem;
-  color: #6F69AC;
+  color: var(--third-color);
 }
 
 .d-products__price {
   padding: .5rem;
   font-size: 1.2rem;
-  color: #6F69AC;
+  color: var(--third-color);
 }

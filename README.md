@@ -1,9 +1,9 @@
 # exercicio-restaurante
 
-[Fixed Left](https://guieltorres.github.io/exercicio-restaurante/fixed-left)
+[Fixed Left](https://guieltorres.github.io/exercicio-restaurante-Creditas/fixed-left)
 
-[Fixed Middle](https://guieltorres.github.io/exercicio-restaurante/fixed-middle)
+[Fixed Middle](https://guieltorres.github.io/exercicio-restaurante-Creditas/fixed-middle)
 
-[Fixed Menu](https://guieltorres.github.io/exercicio-restaurante/fixed-menu)
+[Fixed Menu](https://guieltorres.github.io/exercicio-restaurante-Creditas/fixed-menu)
 
-[Fluid](https://guieltorres.github.io/exercicio-restaurante/fluid)
+[Fluid](https://guieltorres.github.io/exercicio-restaurante-Creditas/fluid)
